@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/TankerNejla_we7djr.jpg);
+    background-size: cover;
+}
+
+.dangNhap {
+    background-color: transparent;
+    width: 50%;
+    margin: 0 auto;
+    backdrop-filter: blur(3px);
+    border: none;
+    box-shadow: 5px 5px 30px;
+    margin-top: 10vw;
+    padding: 1vw;
+}
+
+.lg {
+    text-align: center;
+
+}
+
+.lg img {
+    width: 15vw;
+    padding: 1vw;
+}
+
+.usename,
+.pass {
+    width: 91%;
+    border: none;
+    margin-left: 2.1vw;
+    margin-bottom: 1vh;
+    position: relative;
+}
+
+.usename input,
+.pass input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1vw;
+}
+
+.usename input::placeholder,
+.pass input::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.usename i,
+.pass i {
+    position: absolute;
+    right: 1vh;
+    top: 1vw;
+    color: white;
+    font-size: larger;
+}
+
+.checkbox {
+    margin-left: 1.75vw;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+
+}
+
+.checkbox label,
+.checkbox input {
+    color: aliceblue;
+    font-size: small;
+
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    width: 20%;
+    padding: 1vw;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+}
+
+.button button:hover {
+    background-color: white;
+    color: black;
+}
